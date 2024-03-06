@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A92D64A72B985A990078DE8E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A92D64A62B985A990078DE8E /* .gitignore */; };
 		A9C0FFB72B984A7D009FC6E6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C0FFB62B984A7D009FC6E6 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A92D64A62B985A990078DE8E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A9C0FFB32B984A7D009FC6E6 /* Swift tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C0FFB62B984A7D009FC6E6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -29,6 +31,7 @@
 		A9C0FFAA2B984A7D009FC6E6 = {
 			isa = PBXGroup;
 			children = (
+				A92D64A62B985A990078DE8E /* .gitignore */,
 				A9C0FFB62B984A7D009FC6E6 /* main.swift */,
 				A9C0FFB42B984A7D009FC6E6 /* Products */,
 			);
@@ -100,6 +103,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92D64A72B985A990078DE8E /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
